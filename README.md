@@ -7,8 +7,8 @@
 6. Remove all cases where the first and second highest counts are 1s
 
 
-This is one way to find the most important positions where 1 leads to an affirmative. Os are not considered in this example and
-all are affirmative test cases.
+This is one way to find the most important positions where 1 leads to an affirmative. 0s are not considered in this example and
+all are affirmative test cases. Also, the position means the same thing in every test case.
 
 ## Examples
 
