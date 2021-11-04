@@ -47,7 +47,7 @@ public class LBS {
         {
             int[][] trainingData = new int[][]{{1, 0, 1}, {1, 0, 0}, {0, 1, 1}, {1, 1, 1}};
             int[] sm = Sum(trainingData);
-            int[] in = Sum(trainingData);
+            int[] in = Sort(Sum(trainingData));
             //System.out.println("Sorted Array: ");
             int Max = 0;
             for (int i = 0 ; i < in.length; i++)
