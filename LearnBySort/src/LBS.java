@@ -49,6 +49,8 @@ public class LBS {
             int[] sm = Sum(trainingData);
             int[] in = Sort(Sum(trainingData));
             //System.out.println("Sorted Array: ");
+
+            //COLLAPSE IN TO A SINGLE LOOP
             int Max = 0;
             for (int i = 0 ; i < in.length; i++)
             {
