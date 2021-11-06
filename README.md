@@ -5,6 +5,8 @@
 4. Take the sum of the next position with the highest sum
 5. Make that the maximum
 6. Remove all cases where the first and second highest counts are 1s
+7. Continue for the rest of the inputs.
+8. Initialize a Neural Network with parameters based on the sorted inputs.
 
 
 This is one way to find the most important positions where 1 leads to an affirmative. 0s are not considered in this example and
